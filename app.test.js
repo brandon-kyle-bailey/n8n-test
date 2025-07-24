@@ -1,12 +1,1 @@
-const { helloHandler } = require("./app");
-
-describe("helloHandler", () => {
-  it("should respond with JSON containing Hello, world!", () => {
-    const req = {};
-    const res = { json: jest.fn() };
-
-    helloHandler(req, res);
-
-    expect(res.json).toHaveBeenCalledWith({ message: "Hello, world!" });
-  });
-});
+const { helloHandler, goodbyeHandler } = require(\\\"./app\\\");\\n\\n\ describe(\\\"helloHandler\\\", () => {\\n  it(\\\"should respond with JSON containing Hello, world!\\\", () => {\\n    const req = {};\\n    const res = { json: jest.fn() };\\n    helloHandler(req, res);\\n    expect(res.json).toHaveBeenCalledWith({ message: \\\"Hello, world!\\\" });\\n  });\\n});\\n\\n\ describe(\\\"goodbyeHandler\\\", () => {\\n  it(\\\"should respond with JSON containing Goodbye, world!\\\", () => {\\n    const req = {};\\n    const res = { json: jest.fn() };\\n    goodbyeHandler(req, res);\\n    expect(res.json).toHaveBeenCalledWith({ message: \\\"Goodbye, world!\\\" });\\n  });\\n});\\n
