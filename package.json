@@ -1,0 +1,27 @@
+{
+  "name": "n8n-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandon-kyle-bailey/n8n-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brandon-kyle-bailey/n8n-test/issues"
+  },
+  "homepage": "https://github.com/brandon-kyle-bailey/n8n-test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
